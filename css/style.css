@@ -1,6 +1,11 @@
 /* <!-- Card 1: Top Section --> */
+.deck {
+  margin: 20px 180px;
+}
+
 p#topdelicious {
   font-family: 'Yellowtail', cursive;
+  font-size: 45px;
 }
 p#bestblog {
   font-family: 'Share', cursive;
@@ -45,7 +50,7 @@ p#bestblog {
 }
 
 #tinyicon {
-
+  
 }
 
 
@@ -57,16 +62,22 @@ p#bestblog {
 
 .card.directions p {
   font-family: 'Karma', serif;
+  text-indent: 3%;
 }
 .print-icon {
 
 }
 
 /* <!-- Card 3: List with school paper background. Unordered list of ingredients --> */
-.card.ingredients ul {
-  font-family: 'Patrick Hand', cursive;
+.card.ingredients img {
+  position: relative;
 }
 
+.card.ingredients ul {
+  font-family: 'Patrick Hand', cursive;
+  top: 10px;
+  left: 10px;
+}
 
 /* <!-- Card 4: Image and Contact info for Author --> */
 .card.author {
