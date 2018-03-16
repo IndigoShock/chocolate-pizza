@@ -1,0 +1,98 @@
+/* <!-- Card 1: Top Section --> */
+.deck {
+  margin: 20px 180px;
+}
+
+p#topdelicious {
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
+}
+p#bestblog {
+  font-family: 'Share', cursive;
+}
+
+ /* <!-- Card 1a: Left corner --> */
+.card.head logo {
+  text-align: right;
+}
+
+/* <!-- Card 1b: Right corner --> */
+.fb-icon {
+
+}
+
+.twit-icon {
+
+}
+
+.gp-icon {
+
+}
+
+.insta-icon {
+
+}
+
+.flic-icon {
+
+}
+
+.pint-icon {
+
+}
+
+.rss-icon {
+
+}
+
+.mail-icon {
+
+}
+
+#tinyicon {
+  display: table-cell;
+  position: relative;
+}
+
+
+/* <!-- Card 2: Text about Recipe --> */
+.card.directions header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  /* bold */
+}
+
+.card.directions p {
+  font-family: 'Karma', serif;
+  text-indent: 3%;
+}
+.print-icon {
+
+}
+
+/* <!-- Card 3: List with school paper background. Unordered list of ingredients --> */
+
+.card.ingredients ul {
+  font-family: 'Patrick Hand', cursive;
+  list-style: square;
+  /* top: 200px;
+  left: 50px; */
+  /* float: left; */
+  padding: 30px 75px;
+  background-image: url("../img/list-bg.png");
+  background-size: cover;
+  font-size: 20px;
+}
+
+/* <!-- Card 4: Image and Contact info for Author --> */
+.card.author {
+  font-family: 'Karma', serif;
+  display: inline-block;
+  /* background-image: url("img/list-bg.png"); */
+}
+
+/* <!-- Card 5: Delicious copyright and publish --> */
+.card.foot {
+  font-family: 'Karma', serif;
+  text-align: center;
+}
