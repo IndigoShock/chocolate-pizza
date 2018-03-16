@@ -12,8 +12,8 @@ p#bestblog {
 }
 
  /* <!-- Card 1a: Left corner --> */
-.logo {
-
+.card.head logo {
+  text-align: right;
 }
 
 /* <!-- Card 1b: Right corner --> */
@@ -50,7 +50,8 @@ p#bestblog {
 }
 
 #tinyicon {
-  
+  display: table-cell;
+  position: relative;
 }
 
 
@@ -86,10 +87,12 @@ p#bestblog {
 /* <!-- Card 4: Image and Contact info for Author --> */
 .card.author {
   font-family: 'Karma', serif;
+  display: inline-block;
   /* background-image: url("img/list-bg.png"); */
 }
 
 /* <!-- Card 5: Delicious copyright and publish --> */
 .card.foot {
   font-family: 'Karma', serif;
+  text-align: center;
 }
